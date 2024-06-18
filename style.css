@@ -1,0 +1,210 @@
+ *{
+    margin: 0;
+    padding: 0;
+}
+.container-fluid{
+    height: 70px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 48px;
+    padding-right:0;
+}
+.bar1 .navbar-brand{
+    color: rgb(5, 5, 5);
+    font-size: 24px;
+ }
+ .bar2 .navbar-nav .nav-link,.bar3 .navbar-icon{
+    color: #7c7c7c;
+ }
+ .bar2 .navbar-nav .nav-link:hover ,.bar1 .navbar-brand:hover {
+    color:#ff4400;
+ }
+ .navbar-nav .nav-link:hover , a.active{
+     text-decoration: underline;
+     text-decoration-color: #7c7c7c;
+     text-underline-offset: 8px;
+ }
+ .bar3 .navbar-icon:hover{
+      fill: #ff4400;
+}
+.icon:hover{
+    fill: #ff4400;
+}
+.slider1 h1 ,.slider2 h1, .sliderh1{
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.slider1 p,.slider2 p, .sliderp{
+    font-size: 18px;
+    font-weight: 100;
+}
+.slider1 , .slider2, .slider2{
+    margin-left: 0px;
+}
+.slider1 .carousel-caption , .slider2 .carousel-caption , .slider3 .carousel-caption{
+    width:100%;
+    left: 8%;
+    text-align: left;
+}
+.slider1 a, .slider2 a, .slider3 a{
+    height:60px;
+    width: 55%;
+    font-size: 14px;
+    border-style: hidden;
+    padding-top: 20px;
+    background-color: black;
+        color: white;
+        border-radius: 24px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+}
+.slider1 a:hover,.slider2 a:hover, .slider3 a:hover{
+       background-color:#ff4400;
+       text-decoration: none;
+}
+
+ .carousel-item{
+    height: 650px;
+}
+.page2{
+    width: 100%;
+    height: 530px;
+}
+.page2 .one{
+    font-size: 36px;
+    font-weight: 550;
+    margin-top: 70px;
+    color: black;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page2 .two{
+    width: 100%;
+    margin-top: 40px;
+}
+.page2 .content1{
+    margin-top: 120px;
+}
+.content1 .a, .content1 .b, .content1 .c{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.page2 .content1 a:hover{
+    color: #ff4400;
+    text-decoration: none;
+}
+.content3 .d{
+    font-size: 30px;
+    font-weight: bold;
+}
+.content3 .e , .content3 .f{
+      font-size: 22px;
+      font-weight: 100;
+      color: #7c7c7c;
+}
+.content3 .small{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7c7c7c;
+    font-weight: 850;
+    font-size: 12px;
+}
+/* .content3{
+    line-height: 30px;
+} */
+/*.container-fluid, .navbar-brand, .collapse, .navbar-nav, .navbar-icon{
+    border-style: hidden;
+}
+.navbar-brand{
+    margin-left: 100px;
+}
+.collapse{
+    margin-left: 280px;
+}
+.navbar-nav{
+    margin-left: 20px;
+}
+.navbar-icon{
+    margin-right: 100px;
+}
+.navbar-icon a{
+    padding: 10px;
+} */
+ @media screen and (max-width:768px){
+    
+    div.bar1{
+        order: 2;
+        
+    }
+    div.bar2{
+        order: 1;
+        /* width: 84px; */
+    }
+    div.bar3{
+        order: 3;
+    }
+    .slider1 h1,.slider2 h1, .slider3 h1{
+        font-size: 42px;
+      }
+} 
+
+@media screen and (max-width:320px){
+   .navbar-toggler{
+    padding-left: 0px;
+    padding-right: 0px;
+   }
+   .bar2{
+    margin-left: -10px;
+   }
+   .bar1{
+    margin-left: -10px;
+   }
+   .bar3{
+    margin-left: 20px;
+   }
+  .slider1 h1, .slider2 h1, .slider3 h1{
+    font-size: 42px;
+  }
+} 
+@media screen and (min-width:1024px){
+    .slider1 h1, .slider2 h1, .slider3 h1{
+        font-size: 64px;
+      }
+      .slider1 p, .slider2 p, .slider3 p{
+        font-size: 24px;
+      }
+}
+@media screen and (min-width:320px) {
+    .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
+        top: -5%;
+      }
+}
+@media screen and (min-width:375px) {
+    .slider1 .carousel-caption,  .slider2 .carousel-caption,  .slider3 .carousel-caption{
+        top: 3%;
+      }
+}
+@media screen and (min-width:768px) {
+    .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
+        top: 15%;
+      }
+}
+@media screen and (min-width:1024px) {
+    .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
+        top: 25%;
+      }
+}
+@media screen and (min-width:1440px) {
+    .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
+        top: 38%;
+      }
+}
+@media screen and (min-width:2560px) {
+    .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
+        top: 70%;
+        left:25%
+      }
+}
