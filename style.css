@@ -112,27 +112,6 @@
     font-weight: 850;
     font-size: 12px;
 }
-/* .content3{
-    line-height: 30px;
-} */
-/*.container-fluid, .navbar-brand, .collapse, .navbar-nav, .navbar-icon{
-    border-style: hidden;
-}
-.navbar-brand{
-    margin-left: 100px;
-}
-.collapse{
-    margin-left: 280px;
-}
-.navbar-nav{
-    margin-left: 20px;
-}
-.navbar-icon{
-    margin-right: 100px;
-}
-.navbar-icon a{
-    padding: 10px;
-} */
  @media screen and (max-width:768px){
     
     div.bar1{
