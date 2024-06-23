@@ -73,11 +73,11 @@
  .carousel-inner img{
     height: auto;
 } 
-.page2{
+.page2 {
     width: 100%;
     height: auto;
 }
-.page2 .one{
+.page2 .one , .page4 .topic{
     font-size: 36px;
     font-weight: 550;
     margin-top: 70px;
@@ -104,16 +104,52 @@
     font-size: 30px;
     font-weight: bold;
 }
-.content3 .e , .content3 .f{
+.content3 .e , .content3 .f, .com2 .tan2{
       font-size: 22px;
       font-weight: 100;
       color: #7c7c7c;
 }
-.content3 .small{
+.content3 .small, .com2 .tan3, .page4 .card-text{
     font-family: Arial, Helvetica, sans-serif;
     color: #7c7c7c;
     font-weight: 850;
     font-size: 12px;
+}
+.page3 {
+    width: 99%;
+}
+.page3  .com2{
+    background-color: rgb(224, 248, 250);
+}
+.page3 .tan1 ,.tan2 ,.tan3{
+    margin-left: 50px;
+}
+.page3 .tan1{
+    margin-top: 100px;
+}
+.page4{
+    width: 99%;
+    height: fit-content;
+}
+.page4 .top1 , .page4 .top2 , .page4 .top3, .page4 .card-body{
+    position: relative;
+    z-index: 1;
+}
+.page4 .abs1, .page4 .abs2, .page4 .dollar1, .dollar2 , .dollar3{
+    position: absolute;
+    color: black;
+    z-index: 2;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7c7c7c;
+    font-weight: 850;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.page4 .dollar1, .dollar2, .dollar3{
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 15px;
 }
  @media screen and (max-width:768px){
     
