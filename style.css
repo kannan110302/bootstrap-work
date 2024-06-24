@@ -120,6 +120,7 @@
 }
 .page3  .com2{
     background-color: rgb(224, 248, 250);
+    
 }
 .page3 .tan1 ,.tan2 ,.tan3{
     margin-left: 50px;
@@ -151,6 +152,19 @@
     margin-right: 10px;
     margin-top: 15px;
 }
+.page4 .topic1{
+    font-size: 12px;
+    text-align: center;
+}
+.page5{
+    background-color:  black;
+}
+.page5 .flux{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
  @media screen and (max-width:768px){
     
     div.bar1{
@@ -233,7 +247,7 @@
 @media screen and (max-width:768px) {
     .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
         top: 24%;
-        margin-left: -150px;
+        margin-left: -120px;
       }
       .carousel-item{
         height: 400px;
@@ -248,10 +262,16 @@
         margin-left: 15px;
     }
 }
-@media screen and (max-width:425px) {
+@media screen and (max-width:590px){
+    .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
+        top: 24%;
+        margin-left: -100px;
+      }
+}
+@media screen and (max-width:475px) {
     .slider1 .carousel-caption,  .slider2 .carousel-caption,  .slider3 .carousel-caption{
         top: 3%;
-        margin-left: -100px;
+        margin-left: -80px;
       }
       .carousel-item{
         height: 250px;
@@ -263,7 +283,7 @@
 }
 @media screen and (max-width:375px) {
     .slider1 .carousel-caption,  .slider2 .carousel-caption,  .slider3 .carousel-caption{
-        top: 3%;
+       
         margin-left: -70px;
       }
       .carousel-item{
@@ -279,6 +299,7 @@
 @media screen and (max-width:320px) {
     .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
         top: -10%;
+        
       }
       .carousel-item{
         height: 260px;
