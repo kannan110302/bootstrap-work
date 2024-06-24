@@ -120,6 +120,7 @@
 }
 .page3  .com2{
     background-color: rgb(224, 248, 250);
+    width: 97%;
     
 }
 .page3 .tan1 ,.tan2 ,.tan3{
@@ -272,6 +273,7 @@
     .slider1 .carousel-caption,  .slider2 .carousel-caption,  .slider3 .carousel-caption{
         top: 3%;
         margin-left: -80px;
+        padding-left: 15px;
       }
       .carousel-item{
         height: 250px;
@@ -281,10 +283,16 @@
         height: auto;
     } 
 }
+@media screen and (max-width:365px){
+    .slider1 .carousel-caption,  .slider2 .carousel-caption,  .slider3 .carousel-caption{
+       top:-5%;
+        padding-left: 15px;
+      }
+}
 @media screen and (max-width:375px) {
     .slider1 .carousel-caption,  .slider2 .carousel-caption,  .slider3 .carousel-caption{
-       
-        margin-left: -70px;
+        padding-left: 15px;
+        
       }
       .carousel-item{
         height: 350px;
@@ -299,7 +307,7 @@
 @media screen and (max-width:320px) {
     .slider1 .carousel-caption, .slider2 .carousel-caption, .slider3 .carousel-caption{
         top: -10%;
-        
+        padding-left: 10px;
       }
       .carousel-item{
         height: 260px;
