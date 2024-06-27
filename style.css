@@ -43,10 +43,10 @@
 .slider1 , .slider2, .slider2{
     margin-left: 0px;
 }
-.slider1 .carousel-caption .w-100, .slider2 .carousel-caption , .slider3 .carousel-caption{
+.slider1 .carousel-caption , .slider2 .carousel-caption , .slider3 .carousel-caption{
     width:100%;
     text-align: left;
-    opacity: 0.8;
+
 }
 .slider1 a, .slider2 a, .slider3 a{
     height:60px;
